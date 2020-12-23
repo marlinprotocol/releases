@@ -1,2 +1,2 @@
-# releases
-Metadata for Public and Internal releases of marlin binaries (WIP)
+# Public Releases
+Metadata for public binary releases by marlin team.
