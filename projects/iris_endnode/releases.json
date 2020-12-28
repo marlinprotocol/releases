@@ -1,0 +1,25 @@
+{
+    "json_version": 1,
+    "data" : {
+        "0": {
+            "0": {
+                "1": {
+                    "public": {
+                        "time": "2012-04-23T18:25:43.511Z",
+                        "description": "test public release",
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "runner": "r1",
+                                "data": {
+                                    "gateway": "http://xyz",
+                                    "bridge": "http://bridge",
+                                    "runtime_config": "http://config"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
