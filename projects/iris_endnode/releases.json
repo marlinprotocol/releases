@@ -6,7 +6,7 @@
                 "1": {
                     "public": {
                         "time": "12 Dec 20 15:04 +0530",
-                        "description": "Test public release",
+                        "description": "Test public release - S3 pull test",
                         "bundles": {
                             "linux-amd64.supervisor": {
                                 "runner": "linux-amd64.supervisor.runner01",
