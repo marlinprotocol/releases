@@ -5,8 +5,8 @@
             "0": {
                 "1": {
                     "public": {
-                        "time": "2006-01-02T15:04:05+0530",
-                        "description": "test public release",
+                        "time": "12 Dec 20 15:04 +0530",
+                        "description": "Test public release",
                         "bundles": {
                             "linux-amd64.supervisor": {
                                 "runner": "iris_endnode.linux-amd64.supervisor.runner1",
