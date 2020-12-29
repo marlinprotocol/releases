@@ -5,7 +5,7 @@
             "0": {
                 "1": {
                     "public": {
-                        "time": "2012-04-23T18:25:43.511Z",
+                        "time": "2006-01-02T15:04:05+0530",
                         "description": "test public release",
                         "bundles": {
                             "linux-amd64.supervisor": {
