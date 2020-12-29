@@ -12,7 +12,7 @@
                                 "runner": "linux-amd64.supervisor.runner01",
                                 "data": {
                                     "gateway": "http://xyz",
-                                    "gateway_checksum": "XYZUIUIVIU"
+                                    "gateway_checksum": "XYZUIUIVIU",
                                     "bridge": "http://bridge",
                                     "bridge_checksum": "OIUOIPIUO"
                                 }
