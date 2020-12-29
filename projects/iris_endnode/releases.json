@@ -12,8 +12,9 @@
                                 "runner": "linux-amd64.supervisor.runner01",
                                 "data": {
                                     "gateway": "http://xyz",
+                                    "gateway_checksum": "XYZUIUIVIU"
                                     "bridge": "http://bridge",
-                                    "runtime_config": "http://config"
+                                    "bridge_checksum": "OIUOIPIUO"
                                 }
                             }
                         }
