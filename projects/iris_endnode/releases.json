@@ -9,7 +9,7 @@
                         "description": "Test public release",
                         "bundles": {
                             "linux-amd64.supervisor": {
-                                "runner": "iris_endnode.linux-amd64.supervisor.runner1",
+                                "runner": "linux-amd64.supervisor.runner01",
                                 "data": {
                                     "gateway": "http://xyz",
                                     "bridge": "http://bridge",
