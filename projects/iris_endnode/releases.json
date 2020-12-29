@@ -11,9 +11,8 @@
                             "linux-amd64.supervisor": {
                                 "runner": "linux-amd64.supervisor.runner01",
                                 "data": {
-                                    "gateway": "http://xyz",
-                                    "bridge": "http://bridge",
-                                    "runtime_config": "http://config"
+                                    "gateway": "http://beta.artifacts.marlin.pro/projects/gateway_iris/0.0.1-beta.1/iris_gateway-0.0.1-beta.1-linux-amd64",
+                                    "bridge": "http://beta.artifacts.marlin.pro/projects/gateway_iris/0.0.1-beta.1/iris_bridge-0.0.1-beta.1-linux-amd64",
                                 }
                             }
                         }
