@@ -1,0 +1,25 @@
+{
+    "json_version": 1,
+    "data" : {
+        "0": {
+            "0": {
+                "1": {
+                    "1": {
+                        "time": "12 Dec 20 15:06 +0530",
+                        "description": "Test beta release",
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "runner": "linux-amd64.supervisor.runner01",
+                                "data": {
+                                    "gateway": "http://xyz",
+                                    "bridge": "http://bridge",
+                                    "runtime_config": "http://config"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
