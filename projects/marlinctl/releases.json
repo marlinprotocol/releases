@@ -9,6 +9,7 @@
                         "description": "Test beta release",
                         "bundles": {
                             "linux-amd64": {
+                                "runner": "",
                                 "data": {
                                     "executable": "http://beta.artifacts.marlin.pro/projects/marlinctl/2.0.0-beta.1/marlinctl-linux-amd64",
                                     "checksum": "e13afa15980b2de562f13dacb8837938"
