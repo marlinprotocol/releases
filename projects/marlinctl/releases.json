@@ -9,12 +9,9 @@
                         "description": "Test beta release",
                         "bundles": {
                             "linux-amd64": {
-                                "runner": "linux-amd64.supervisor.runner01",
                                 "data": {
-                                    "gateway": "http://beta.artifacts.marlin.pro/projects/gateway_iris/0.0.1-beta.1/iris_gateway-0.0.1-beta.1-linux-amd64",
-                                    "gateway_checksum": "42e29d7b223de75400d0e05b58274c78",
-                                    "bridge": "http://beta.artifacts.marlin.pro/projects/gateway_iris/0.0.1-beta.1/iris_bridge-0.0.1-beta.1-linux-amd64",
-                                    "bridge_checksum": "243af76921feca3356a9a1024ef1dca1"
+                                    "executable": "http://beta.artifacts.marlin.pro/projects/marlinctl/2.0.0-beta.1/marlinctl-linux-amd64",
+                                    "checksum": "e13afa15980b2de562f13dacb8837938"
                                 }
                             }
                         }
