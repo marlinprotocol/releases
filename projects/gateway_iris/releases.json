@@ -43,7 +43,7 @@
             "0": {
                 "0": {
                     "0": {
-                        "time": "12 Dec 20 15:06 +0530",
+                        "time": "22 Dec 20 15:06 +0530",
                         "description": "Test beta release",
                         "bundles": {
                             "linux-amd64.supervisor": {
@@ -60,7 +60,7 @@
                 },
                 "2": {
                     "0": {
-                        "time": "14 Dec 20 15:06 +0530",
+                        "time": "24 Dec 20 15:06 +0530",
                         "description": "Test beta release",
                         "bundles": {
                             "linux-amd64.supervisor": {
