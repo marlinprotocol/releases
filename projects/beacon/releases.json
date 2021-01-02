@@ -1,0 +1,24 @@
+{
+    "json_version": 1,
+    "data" : {
+        "0": {
+            "0": {
+                "2": {
+                    "0": {
+                        "time": "01 Jan 21 15:06 +0530",
+                        "description": "Initial beacon release",
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "runner": "linux-amd64.supervisor.runner01",
+                                "data": {
+                                    "relay": "http://public.artifacts.marlin.pro/projects/beacon/0.0.2/beacon-0.0.2-linux-amd64",
+                                    "relay_checksum": "d3dd31f03992602e9632f22a708c9f5e"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
