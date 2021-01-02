@@ -12,7 +12,7 @@
                                 "runner": "linux-amd64.supervisor.runner01",
                                 "data": {
                                     "beacon": "http://public.artifacts.marlin.pro/projects/beacon/1.0.0/beacon-1.0.0-linux-amd64",
-                                    "beacon_checksum": "09a353bf5ed9b4ce23d72601360ff7b7"
+                                    "beacon_checksum": "601563fd36a145caaaf03c87e8ac482a"
                                 }
                             }
                         }
