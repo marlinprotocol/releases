@@ -11,8 +11,8 @@
                             "linux-amd64.supervisor": {
                                 "runner": "linux-amd64.supervisor.runner01",
                                 "data": {
-                                    "relay": "http://public.artifacts.marlin.pro/projects/beacon/0.0.2/beacon-0.0.2-linux-amd64",
-                                    "relay_checksum": "d3dd31f03992602e9632f22a708c9f5e"
+                                    "beacon": "http://public.artifacts.marlin.pro/projects/beacon/0.0.2/beacon-0.0.2-linux-amd64",
+                                    "beacon_checksum": "d3dd31f03992602e9632f22a708c9f5e"
                                 }
                             }
                         }
