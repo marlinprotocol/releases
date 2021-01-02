@@ -12,7 +12,7 @@
                                 "runner": "",
                                 "data": {
                                     "executable": "http://public.artifacts.marlin.pro/projects/marlinctl/2.0.0/marlinctl-2.0.0-linux-amd64",
-                                    "checksum": "6358d1f527051d02b967da78e7bd119b"
+                                    "checksum": "6bdc336c87bbedb172a0c7a10c0881c9"
                                 }
                             }
                         }
