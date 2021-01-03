@@ -5,14 +5,14 @@
             "0": {
                 "0": {
                     "0": {
-                        "time": "02 Jan 21 18:00 +0530",
+                        "time": "03 Jan 21 11:00 +0530",
                         "description": "2.0.0 initial release",
                         "bundles": {
                             "linux-amd64": {
                                 "runner": "",
                                 "data": {
                                     "executable": "http://public.artifacts.marlin.pro/projects/marlinctl/2.0.0/marlinctl-2.0.0-linux-amd64",
-                                    "checksum": "6bdc336c87bbedb172a0c7a10c0881c9"
+                                    "checksum": "bec6caaa7c6336485964165b9e29edfd"
                                 }
                             }
                         }
