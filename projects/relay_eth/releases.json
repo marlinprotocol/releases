@@ -22,7 +22,7 @@
                 },
                 "1": {
                     "0": {
-                        "time": "08 Jan 21 13:00 +0530",
+                        "time": "08 Jan 21 14:00 +0530",
                         "description": "1.0.1 bug fix",
                         "bundles": {
                             "linux-amd64.supervisor": {
