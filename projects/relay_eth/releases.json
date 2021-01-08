@@ -6,15 +6,15 @@
                 "0": {
                     "1": {
                         "time": "08 Jan 21 13:00 +0530",
-                        "description": "1.0.1 initial release",
+                        "description": "1.0.1 bug fix",
                         "bundles": {
                             "linux-amd64.supervisor": {
                                 "runner": "linux-amd64.supervisor.runner01",
                                 "data": {
-                                    "relay": "http://public.artifacts.marlin.pro/projects/relay_eth/1.0.0/eth_relay-1.0.0-linux-amd64",
-                                    "relay_checksum": "c08f2002bbd686710b7117c2d64cbc1a",
-                                    "geth": "http://public.artifacts.marlin.pro/projects/relay_eth/1.0.0/geth-1.0.0-linux-amd64",
-                                    "geth_checksum": "1d856a8e29bf26ed0f687b5108d11091"
+                                    "relay": "http://beta.artifacts.marlin.pro/projects/relay_eth/1.0.1/relay_eth-linux_amd64",
+                                    "relay_checksum": "6ea506fcfd829409d04da048ba8599f4",
+                                    "geth": "http://beta.artifacts.marlin.pro/projects/relay_eth/1.0.1/geth-1.0.1-linux_amd64",
+                                    "geth_checksum": "f31591d47a91b530f99109774eb662f2"
                                 }
                             }
                         }
