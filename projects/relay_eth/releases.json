@@ -1,0 +1,26 @@
+{
+    "json_version": 1,
+    "data" : {
+        "1": {
+            "0": {
+                "0": {
+                    "0": {
+                        "time": "08 Jan 21 13:00 +0530",
+                        "description": "1.0.1 initial release",
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "runner": "linux-amd64.supervisor.runner01",
+                                "data": {
+                                    "relay": "http://public.artifacts.marlin.pro/projects/relay_eth/1.0.0/eth_relay-1.0.0-linux-amd64",
+                                    "relay_checksum": "c08f2002bbd686710b7117c2d64cbc1a",
+                                    "geth": "http://public.artifacts.marlin.pro/projects/relay_eth/1.0.0/geth-1.0.0-linux-amd64",
+                                    "geth_checksum": "1d856a8e29bf26ed0f687b5108d11091"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
