@@ -1,5 +1,24 @@
 {
-    "json_version": 1,
-    "data" : {
-    }
+    "data": {
+        "0": {
+            "0": {
+                "0": {
+                    "0": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "beacon": "s3://beta.artifacts.marlin.pro/projects/beacon/0.0.0-beta.0//beacon-linux_amd64", 
+                                    "beacon_checksum": "test_checksum"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner01"
+                            }
+                        }, 
+                        "description": "automated", 
+                        "time": "2021-01-11 11:40:24 UTC"
+                    }
+                }
+            }
+        }
+    }, 
+    "json_version": 1
 }
