@@ -23,7 +23,7 @@ if len(sys.argv) == 10:
     pg_checksum[1] = sys.argv[9]
 
 
-with open('config.json', "r") as json_file:
+with open(file_path, "r") as json_file:
     data = json.load(json_file)
     if not data['data'].has_key(str(v.major)):
         data['data'][str(v.major)] = {}
@@ -62,5 +62,5 @@ with open('config.json', "r") as json_file:
                 }
             }
         }
-    with open('config.json', "w") as fp:
+    with open(file_path, "w") as fp:
         json.dump(data, fp, sort_keys=True, indent=4)
