@@ -30,8 +30,8 @@ with open(beta_file_path, "r") as beta_file:
         if data_release['data'][str(v.major)][str(v.minor)].has_key(str(v.patch)):
             sys.exit("version aready exists")
         
-        ts = time.gmtime()
-        d["time"] =  time.strftime("%Y-%m-%d %H:%M:%S UTC", ts)
+        ts = time.gmtime(int(time.time()) + 19800) #in +5:30 
+        d["time"] =  time.strftime("%d %b %y %H:%M +0530", ts)
         d["description"] = description
 
         public_version = str(v.major) + '.' + str(v.minor) + '.' + str(v.patch)
