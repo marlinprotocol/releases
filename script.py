@@ -37,8 +37,8 @@ with open(file_path, "r") as json_file:
     if data['data'][str(v.major)][str(v.minor)][str(v.patch)].has_key(str(v.prerelease[1])):
         sys.exit("version aready exists")
     data['data'][str(v.major)][str(v.minor)][str(v.patch)][str(v.prerelease[1])] = {}
-    ts = time.gmtime()
-    data['data'][str(v.major)][str(v.minor)][str(v.patch)][str(v.prerelease[1])]["time"] = time.strftime("%Y-%m-%d %H:%M:%S UTC", ts)
+    ts = time.gmtime(int(time.time()) + 19800) #in +5:30 
+    data['data'][str(v.major)][str(v.minor)][str(v.patch)][str(v.prerelease[1])]["time"] = time.strftime("%d %b %y %H:%M +0530", ts)
     data['data'][str(v.major)][str(v.minor)][str(v.patch)][str(v.prerelease[1])]["description"] = description
     if pg_name[1] == "":
         data['data'][str(v.major)][str(v.minor)][str(v.patch)][str(v.prerelease[1])]["bundles"] = {
