@@ -57,6 +57,10 @@ with open(beta_file_path, "r") as beta_file:
             d["bundles"]["linux-amd64.supervisor"]["data"]["bridge"] = "http://public.artifacts.marlin.pro/projects/gateway_iris/" + public_version \
                 + "/bridge_iris-linux-amd64"
 
+        elif project_name == "marlinctl":
+            d["bundles"]["linux-amd64.supervisor"]["data"]["executable"] = "http://public.artifacts.marlin.pro/projects/marlinctl/" + public_version \
+                + "/marlinctl-linux-amd64"
+
         data_release['data'][str(v.major)][str(v.minor)][str(v.patch)] = {
             "0": d
         }
