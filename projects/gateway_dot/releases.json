@@ -1,5 +1,24 @@
 {
-    "json_version": 1,
-    "data" : {
-    }
+    "data": {
+        "0": {
+            "0": {
+                "0": {
+                    "0": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "gateway": "s3://beta.artifacts.marlin.pro/projects/gateway_dot/0.0.0-beta.0/gateway_dot-linux_amd64", 
+                                    "gateway_checksum": "c4c03573b440975bf7a3f39bd09f6ed5"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner01"
+                            }
+                        }, 
+                        "description": "automated", 
+                        "time": "05 Feb 21 13:06 +0530"
+                    }
+                }
+            }
+        }
+    }, 
+    "json_version": 1
 }
