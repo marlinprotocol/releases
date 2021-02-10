@@ -1,5 +1,26 @@
 {
-    "json_version": 1,
-    "data" : {
-    }
+    "data": {
+        "0": {
+            "0": {
+                "2": {
+                    "2": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "bridge": "s3://beta.artifacts.marlin.pro/projects/gateway_dot/0.0.2-beta.2/bridge_dot-linux_amd64", 
+                                    "bridge_checksum": "37e926f63b0ecbc80a96ca2b0decfa2b", 
+                                    "gateway": "s3://beta.artifacts.marlin.pro/projects/gateway_dot/0.0.2-beta.2/gateway_dot-linux_amd64", 
+                                    "gateway_checksum": "6ba8e6f9a894ae6a666c402759544ebe"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner01"
+                            }
+                        }, 
+                        "description": "automated", 
+                        "time": "10 Feb 21 10:36 +0530"
+                    }
+                }
+            }
+        }
+    }, 
+    "json_version": 1
 }
