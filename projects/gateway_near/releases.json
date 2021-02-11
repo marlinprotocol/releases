@@ -15,6 +15,19 @@
                         }, 
                         "description": "near gateway placeholder", 
                         "time": "10 Feb 21 15:51 +0530"
+                    }, 
+                    "1": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_near/1.0.0-beta.1/gateway_near-linux_amd64", 
+                                    "gateway_checksum": "bea166fff90457eb692acfe24e5a6d0c"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner01"
+                            }
+                        }, 
+                        "description": "near gateway initial release", 
+                        "time": "11 Feb 21 13:07 +0530"
                     }
                 }
             }
