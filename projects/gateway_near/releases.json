@@ -7,8 +7,8 @@
                         "bundles": {
                             "linux-amd64.supervisor": {
                                 "data": {
-                                    "bridge": "NA", 
-                                    "bridge_checksum": "NA"
+                                    "gateway": "NA", 
+                                    "gateway_checksum": "NA"
                                 }, 
                                 "runner": "linux-amd64.supervisor.runner01"
                             }
