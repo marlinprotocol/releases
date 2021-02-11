@@ -1,0 +1,24 @@
+{
+    "data": {
+        "1": {
+            "0": {
+                "0": {
+                    "0": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "bridge": "NA", 
+                                    "bridge_checksum": "NA"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner01"
+                            }
+                        }, 
+                        "description": "near gateway placeholder", 
+                        "time": "10 Feb 21 15:51 +0530"
+                    }
+                }
+            }
+        }
+    }, 
+    "json_version": 1
+}
