@@ -1,5 +1,26 @@
 {
     "json_version": 1,
     "data" : {
+        "1": {
+            "0": {
+                "0": {
+                    "1": {
+                        "time": "12 Feb 20 17:46 +0530",
+                        "description": "Cosmos Gateway initial release",
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "runner": "linux-amd64.supervisor.runner01",
+                                "data": {
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_cosmos/1.0.0-beta.1/cosmos_gateway-linux_amd64",
+                                    "gateway_checksum": "b82158fa6eba37c1b8721edc0878c7ac",
+                                    "bridge": "https://beta.artifacts.marlin.pro/projects/gateway_cosmos/1.0.0-beta.1/cosmos_bridge-linux_amd64",
+                                    "bridge_checksum": "34e9f55fca0d226b3c6b11c7dc49dafb"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
