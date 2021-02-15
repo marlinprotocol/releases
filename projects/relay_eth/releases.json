@@ -9,7 +9,7 @@
                         "description": "1.0.1 bug fix",
                         "bundles": {
                             "linux-amd64.supervisor": {
-                                "runner": "linux-amd64.supervisor.runner01",
+                                "runner": "linux-amd64.supervisor.runner02",
                                 "data": {
                                     "relay": "http://beta.artifacts.marlin.pro/projects/relay_eth/1.0.1/relay_eth-linux_amd64",
                                     "relay_checksum": "6ea506fcfd829409d04da048ba8599f4",

@@ -9,7 +9,7 @@
                         "description": "Cosmos Gateway initial release",
                         "bundles": {
                             "linux-amd64.supervisor": {
-                                "runner": "linux-amd64.supervisor.runner01",
+                                "runner": "linux-amd64.supervisor.runner02",
                                 "data": {
                                     "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_cosmos/1.0.0-beta.1/cosmos_gateway-linux_amd64",
                                     "gateway_checksum": "b82158fa6eba37c1b8721edc0878c7ac",
