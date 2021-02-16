@@ -1,5 +1,25 @@
+
 {
     "json_version": 1,
     "data" : {
+        "1": {
+            "0": {
+                "0": {
+                    "1": {
+                        "time": "02 Feb 21 18:00 +0530",
+                        "description": "test beta release",
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "runner": "linux-amd64.supervisor.runner02",
+                                "data": {
+                                    "beacon": "http://public.artifacts.marlin.pro/projects/beacon/1.0.0/beacon-1.0.0-linux-amd64",
+                                    "beacon_checksum": "601563fd36a145caaaf03c87e8ac482a"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
