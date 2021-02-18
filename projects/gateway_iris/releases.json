@@ -12,7 +12,7 @@
                                 "runner": "linux-amd64.supervisor.runner02",
                                 "data": {
                                     "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_iris/1.0.0-beta.1/iris_gateway-linux_amd64",
-                                    "gateway_checksum": "85572887b2130cb01ae564aca1d0d067",
+                                    "gateway_checksum": "d60226ff8a9cba96d4658274eade35f1",
                                     "bridge": "https://beta.artifacts.marlin.pro/projects/gateway_iris/1.0.0-beta.1/iris_bridge-linux_amd64",
                                     "bridge_checksum": "a95d5efa1a6aa02020e8892f3bedf382"
                                 }

@@ -12,7 +12,7 @@
                                 "runner": "linux-amd64.supervisor.runner02",
                                 "data": {
                                     "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_cosmos/1.0.0-beta.1/cosmos_gateway-linux_amd64",
-                                    "gateway_checksum": "b82158fa6eba37c1b8721edc0878c7ac",
+                                    "gateway_checksum": "fffd8d73265c9765cd2f8de1305a8070",
                                     "bridge": "https://beta.artifacts.marlin.pro/projects/gateway_cosmos/1.0.0-beta.1/cosmos_bridge-linux_amd64",
                                     "bridge_checksum": "34e9f55fca0d226b3c6b11c7dc49dafb"
                                 }
