@@ -42,7 +42,7 @@
                                     "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_dot/1.0.0-beta.3/gateway_dot-linux_amd64", 
                                     "gateway_checksum": "1df193c90b535f62bf11753d0646d80e"
                                 }, 
-                                "runner": "linux-amd64.supervisor.runner01"
+                                "runner": "linux-amd64.supervisor.runner02"
                             }
                         }, 
                         "description": "witness changes", 
