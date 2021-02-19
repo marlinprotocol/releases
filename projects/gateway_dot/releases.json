@@ -32,6 +32,21 @@
                         }, 
                         "description": "dot gateway initial release", 
                         "time": "10 Feb 21 20:40 +0530"
+                    }, 
+                    "3": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "bridge": "https://beta.artifacts.marlin.pro/projects/gateway_dot/1.0.0-beta.3/bridge_dot-linux_amd64", 
+                                    "bridge_checksum": "76e932492a6b87faf62400ad0dc8a92a", 
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_dot/1.0.0-beta.3/gateway_dot-linux_amd64", 
+                                    "gateway_checksum": "1df193c90b535f62bf11753d0646d80e"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "witness changes", 
+                        "time": "19 Feb 21 12:26 +0530"
                     }
                 }
             }
