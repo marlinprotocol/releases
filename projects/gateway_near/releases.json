@@ -36,7 +36,7 @@
                                     "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_near/1.0.0-beta.3/gateway_near-linux_amd64", 
                                     "gateway_checksum": "7e3bf810db4b27a6294075e932063666"
                                 }, 
-                                "runner": "linux-amd64.supervisor.runner01"
+                                "runner": "linux-amd64.supervisor.runner02"
                             }
                         }, 
                         "description": "make one way", 
