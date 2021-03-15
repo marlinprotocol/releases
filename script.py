@@ -3,24 +3,25 @@ import semantic_version
 import sys
 import time
 
-if len(sys.argv) < 7:
+if len(sys.argv) < 8:
     sys.exit("not enough arguments")
 
 file_path = sys.argv[1]
 v  = semantic_version.Version(sys.argv[2])
 description = sys.argv[3]
+runner_version = sys.argv[4]
 pg_name = ["", ""]
 pg_path = ["", ""]
 pg_checksum = ["", ""]
 
-pg_name[0] = sys.argv[4]
-pg_path[0] = sys.argv[5]
-pg_checksum[0] = sys.argv[6]
+pg_name[0] = sys.argv[5]
+pg_path[0] = sys.argv[6]
+pg_checksum[0] = sys.argv[7]
 
-if len(sys.argv) == 10:
-    pg_name[1] = sys.argv[7]
-    pg_path[1] = sys.argv[8]
-    pg_checksum[1] = sys.argv[9]
+if len(sys.argv) == 11:
+    pg_name[1] = sys.argv[8]
+    pg_path[1] = sys.argv[9]
+    pg_checksum[1] = sys.argv[10]
 
 
 with open(file_path, "r") as json_file:
@@ -43,7 +44,7 @@ with open(file_path, "r") as json_file:
     if pg_name[1] == "":
         data['data'][str(v.major)][str(v.minor)][str(v.patch)][str(v.prerelease[1])]["bundles"] = {
             "linux-amd64.supervisor": {
-                "runner": "linux-amd64.supervisor.runner01",
+                "runner": "linux-amd64.supervisor." + runner_version,
                 "data": {
                     pg_name[0]: pg_path[0],
                     (pg_name[0]+"_checksum"): str(pg_checksum[0])
@@ -53,7 +54,7 @@ with open(file_path, "r") as json_file:
     else:
         data['data'][str(v.major)][str(v.minor)][str(v.patch)][str(v.prerelease[1])]["bundles"] = {
             "linux-amd64.supervisor": {
-                "runner": "linux-amd64.supervisor.runner01",
+                "runner": "linux-amd64.supervisor." + runner_version,
                 "data": {
                     pg_name[0]: pg_path[0],
                     (pg_name[0]+"_checksum"): str(pg_checksum[0]),
