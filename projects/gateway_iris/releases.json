@@ -27,7 +27,7 @@
                                     "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_iris/1.0.0-beta.2/gateway_iris-linux_amd64", 
                                     "gateway_checksum": "1f21b390100643e05f9cea45d91d746e"
                                 }, 
-                                "runner": "linux-amd64.supervisor.runner01"
+                                "runner": "linux-amd64.supervisor.runner02"
                             }
                         }, 
                         "description": "init test for beta", 
