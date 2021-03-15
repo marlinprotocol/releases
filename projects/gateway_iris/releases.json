@@ -1,26 +1,41 @@
 {
-    "json_version": 1,
-    "data" : {
+    "data": {
         "1": {
             "0": {
                 "0": {
                     "1": {
-                        "time": "12 Feb 20 17:36 +0530",
-                        "description": "Iris Gateway initial release",
                         "bundles": {
                             "linux-amd64.supervisor": {
-                                "runner": "linux-amd64.supervisor.runner02",
                                 "data": {
-                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_iris/1.0.0-beta.1/iris_gateway-linux_amd64",
-                                    "gateway_checksum": "d60226ff8a9cba96d4658274eade35f1",
-                                    "bridge": "https://beta.artifacts.marlin.pro/projects/gateway_iris/1.0.0-beta.1/iris_bridge-linux_amd64",
-                                    "bridge_checksum": "a95d5efa1a6aa02020e8892f3bedf382"
-                                }
+                                    "bridge": "https://beta.artifacts.marlin.pro/projects/gateway_iris/1.0.0-beta.1/iris_bridge-linux_amd64", 
+                                    "bridge_checksum": "a95d5efa1a6aa02020e8892f3bedf382", 
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_iris/1.0.0-beta.1/iris_gateway-linux_amd64", 
+                                    "gateway_checksum": "d60226ff8a9cba96d4658274eade35f1"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
                             }
-                        }
+                        }, 
+                        "description": "Iris Gateway initial release", 
+                        "time": "12 Feb 20 17:36 +0530"
+                    }, 
+                    "2": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "bridge": "https://beta.artifacts.marlin.pro/projects/gateway_iris/1.0.0-beta.2/bridge_iris-linux_amd64", 
+                                    "bridge_checksum": "f6668fdd3e48b5db4998e82aeca19a23", 
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_iris/1.0.0-beta.2/gateway_iris-linux_amd64", 
+                                    "gateway_checksum": "1f21b390100643e05f9cea45d91d746e"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner01"
+                            }
+                        }, 
+                        "description": "init test for beta", 
+                        "time": "15 Mar 21 17:09 +0530"
                     }
                 }
             }
         }
-    }
+    }, 
+    "json_version": 1
 }
