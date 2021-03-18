@@ -34,6 +34,21 @@
                             }
                         }
                     }
+                },
+                "1": {
+                    "0": {
+                        "time": "18 Mar 21 21:00 +0530",
+                        "description": "2.1.1 upgrade logic fix",
+                        "bundles": {
+                            "linux-amd64": {
+                                "runner": "",
+                                "data": {
+                                    "executable": "http://public.artifacts.marlin.pro/projects/marlinctl/2.1.1/marlinctl-2.1.1-linux-amd64",
+                                    "checksum": "edffa9567bc412218330984ca4991ad2"
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
