@@ -1,0 +1,26 @@
+{
+    "json_version": 1,
+    "data" : {
+        "1": {
+            "0": {
+                "0": {
+                    "0": {
+                        "time": "18 Mar 21 14:00 +0530",
+                        "description": "1.0.0 polkadot release",
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "runner": "linux-amd64.supervisor.runner02",
+                                "data": {
+                                    "bridge": "http://public.artifacts.marlin.pro/projects/gateway_dot/1.0.0/bridge_dot-linux_amd64", 
+                                    "bridge_checksum": "76e932492a6b87faf62400ad0dc8a92a", 
+                                    "gateway": "http://public.artifacts.marlin.pro/projects/gateway_dot/1.0.0/gateway_dot-linux_amd64", 
+                                    "gateway_checksum": "1df193c90b535f62bf11753d0646d80e"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

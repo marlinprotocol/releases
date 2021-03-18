@@ -18,6 +18,23 @@
                         }
                     }
                 }
+            },
+            "1": {
+                "0": {
+                    "0": {
+                        "time": "18 Mar 21 13:00 +0530",
+                        "description": "2.1.0 polka upgrades",
+                        "bundles": {
+                            "linux-amd64": {
+                                "runner": "",
+                                "data": {
+                                    "executable": "http://public.artifacts.marlin.pro/projects/marlinctl/2.1.0/marlinctl-2.1.0-linux-amd64",
+                                    "checksum": "1631778fa78a11485ed4953302024717"
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
