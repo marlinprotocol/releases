@@ -17,6 +17,21 @@
                             }
                         }
                     }
+                },
+                "1": {
+                    "0": {
+                        "time": "18 Mar 21 14:00 +0530",
+                        "description": "1.0.1 runner upgrades",
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "runner": "linux-amd64.supervisor.runner02",
+                                "data": {
+                                    "beacon": "http://public.artifacts.marlin.pro/projects/beacon/1.0.1/beacon-1.0.1-linux-amd64",
+                                    "beacon_checksum": "601563fd36a145caaaf03c87e8ac482a"
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

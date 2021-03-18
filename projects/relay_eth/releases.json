@@ -36,6 +36,23 @@
                             }
                         }
                     }
+                },
+                "2": {
+                    "0": {
+                        "time": "18 Mar 21 14:00 +0530",
+                        "description": "1.0.2 runner upgrades",
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "runner": "linux-amd64.supervisor.runner02",
+                                "data": {
+                                    "relay": "http://public.artifacts.marlin.pro/projects/relay_eth/1.0.2/relay_eth-linux_amd64",
+                                    "relay_checksum": "6ea506fcfd829409d04da048ba8599f4",
+                                    "geth": "http://public.artifacts.marlin.pro/projects/relay_eth/1.0.2/geth-linux_amd64",
+                                    "geth_checksum": "f31591d47a91b530f99109774eb662f2"
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
