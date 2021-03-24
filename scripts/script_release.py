@@ -37,43 +37,43 @@ with open(beta_file_path, "r") as beta_file:
         public_version = str(v.major) + '.' + str(v.minor) + '.' + str(v.patch)
         if project_name == "beacon":
             d["bundles"]["linux-amd64.supervisor"]["data"]["beacon"] = "https://public.artifacts.marlin.pro/projects/beacon/" + public_version \
-                + "/beacon-linux-amd64"
+                + "/beacon-linux_amd64"
         
         elif project_name == "relay_eth":
             d["bundles"]["linux-amd64.supervisor"]["data"]["relay"] = "https://public.artifacts.marlin.pro/projects/relay_eth/" + public_version \
-                + "/relay_eth-linux-amd64"
+                + "/relay_eth-linux_amd64"
             d["bundles"]["linux-amd64.supervisor"]["data"]["geth"] = "https://public.artifacts.marlin.pro/projects/relay_eth/" + public_version \
-                + "/geth-linux-amd64"
+                + "/geth-linux_amd64"
 
         elif project_name == "gateway_eth":
             d["bundles"]["linux-amd64.supervisor"]["data"]["gateway"] = "https://public.artifacts.marlin.pro/projects/gateway_eth/" + public_version \
-                + "/gateway_eth-linux-amd64"
+                + "/gateway_eth-linux_amd64"
         
         elif project_name == "gateway_near":
             d["bundles"]["linux-amd64.supervisor"]["data"]["gateway"] = "https://public.artifacts.marlin.pro/projects/gateway_near/" + public_version \
-                + "/gateway_near-linux-amd64"
+                + "/gateway_near-linux_amd64"
 
         elif project_name == "gateway_iris":
             d["bundles"]["linux-amd64.supervisor"]["data"]["bridge"] = "https://public.artifacts.marlin.pro/projects/gateway_iris/" + public_version \
-                + "/bridge_iris-linux-amd64"
+                + "/bridge_iris-linux_amd64"
             d["bundles"]["linux-amd64.supervisor"]["data"]["gateway"] = "https://public.artifacts.marlin.pro/projects/gateway_iris/" + public_version \
-                + "/gateway_iris-linux-amd64"
+                + "/gateway_iris-linux_amd64"
         
         elif project_name == "gateway_cosmos":
             d["bundles"]["linux-amd64.supervisor"]["data"]["bridge"] = "https://public.artifacts.marlin.pro/projects/gateway_cosmos/" + public_version \
-                + "/bridge_cosmos-linux-amd64"
+                + "/bridge_cosmos-linux_amd64"
             d["bundles"]["linux-amd64.supervisor"]["data"]["gateway"] = "https://public.artifacts.marlin.pro/projects/gateway_cosmos/" + public_version \
-                + "/gateway_cosmos-linux-amd64"
+                + "/gateway_cosmos-linux_amd64"
             
         elif project_name == "gateway_dot":
             d["bundles"]["linux-amd64.supervisor"]["data"]["gateway"] = "https://public.artifacts.marlin.pro/projects/gateway_dot/" + public_version \
-                + "/gateway_dot-linux-amd64"
+                + "/gateway_dot-linux_amd64"
             d["bundles"]["linux-amd64.supervisor"]["data"]["bridge"] = "https://public.artifacts.marlin.pro/projects/gateway_dot/" + public_version \
-                + "/bridge_dot-linux-amd64"
+                + "/bridge_dot-linux_amd64"
 
         elif project_name == "marlinctl":
             d["bundles"]["linux-amd64.supervisor"]["data"]["executable"] = "https://public.artifacts.marlin.pro/projects/marlinctl/" + public_version \
-                + "/marlinctl-linux-amd64"
+                + "/marlinctl-linux_amd64"
 
         data_release['data'][str(v.major)][str(v.minor)][str(v.patch)] = {
             "0": d
