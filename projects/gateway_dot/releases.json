@@ -24,15 +24,15 @@
                         "bundles": {
                             "linux-amd64.supervisor": {
                                 "data": {
-                                    "bridge": "https://public.artifacts.marlin.pro/projects/gateway_dot/1.0.1/bridge_dot-linux_amd64", 
+                                    "bridge": "http://public.artifacts.marlin.pro/projects/gateway_dot/1.0.1/bridge_dot-linux_amd64", 
                                     "bridge_checksum": "3d941665f04372fefb57f857d41ac6a0", 
-                                    "gateway": "https://public.artifacts.marlin.pro/projects/gateway_dot/1.0.1/gateway_dot-linux_amd64", 
+                                    "gateway": "http://public.artifacts.marlin.pro/projects/gateway_dot/1.0.1/gateway_dot-linux_amd64", 
                                     "gateway_checksum": "1df193c90b535f62bf11753d0646d80e"
                                 }, 
                                 "runner": "linux-amd64.supervisor.runner02"
                             }
                         }, 
-                        "description": "ubuntu 18.04 build", 
+                        "description": "extended support to ubuntu 18.04", 
                         "time": "24 Mar 21 21:09 +0530"
                     }
                 }
