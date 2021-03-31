@@ -1,26 +1,43 @@
 {
-    "json_version": 1,
-    "data" : {
+    "data": {
         "1": {
             "0": {
                 "1": {
                     "1": {
-                        "time": "08 Jan 21 13:00 +0530",
-                        "description": "1.0.1 bug fix",
                         "bundles": {
                             "linux-amd64.supervisor": {
-                                "runner": "linux-amd64.supervisor.runner02",
                                 "data": {
-                                    "relay": "http://beta.artifacts.marlin.pro/projects/relay_eth/1.0.1/relay_eth-linux_amd64",
-                                    "relay_checksum": "6ea506fcfd829409d04da048ba8599f4",
-                                    "geth": "http://beta.artifacts.marlin.pro/projects/relay_eth/1.0.1/geth-1.0.1-linux_amd64",
-                                    "geth_checksum": "f31591d47a91b530f99109774eb662f2"
-                                }
+                                    "geth": "http://beta.artifacts.marlin.pro/projects/relay_eth/1.0.1/geth-1.0.1-linux_amd64", 
+                                    "geth_checksum": "f31591d47a91b530f99109774eb662f2", 
+                                    "relay": "http://beta.artifacts.marlin.pro/projects/relay_eth/1.0.1/relay_eth-linux_amd64", 
+                                    "relay_checksum": "6ea506fcfd829409d04da048ba8599f4"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
                             }
-                        }
+                        }, 
+                        "description": "1.0.1 bug fix", 
+                        "time": "08 Jan 21 13:00 +0530"
+                    }
+                }, 
+                "2": {
+                    "1": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "geth": "https://beta.artifacts.marlin.pro/projects/relay_eth/1.0.2-beta.1/geth-linux_amd64", 
+                                    "geth_checksum": "89f062311ad82f8e74dee1aebfb77caa", 
+                                    "relay": "https://beta.artifacts.marlin.pro/projects/relay_eth/1.0.2-beta.1/relay_eth-linux_amd64", 
+                                    "relay_checksum": "3158aa5370b1edf0f684fdfe8dd8e65a"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner01"
+                            }
+                        }, 
+                        "description": "upgrade to geth v1.10.1", 
+                        "time": "31 Mar 21 14:12 +0530"
                     }
                 }
             }
         }
-    }
+    }, 
+    "json_version": 1
 }
