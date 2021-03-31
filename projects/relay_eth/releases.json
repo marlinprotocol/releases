@@ -27,7 +27,7 @@
                                     "geth": "https://beta.artifacts.marlin.pro/projects/relay_eth/1.0.2-beta.1/geth-linux_amd64", 
                                     "geth_checksum": "89f062311ad82f8e74dee1aebfb77caa", 
                                     "relay": "https://beta.artifacts.marlin.pro/projects/relay_eth/1.0.2-beta.1/relay_eth-linux_amd64", 
-                                    "relay_checksum": "3158aa5370b1edf0f684fdfe8dd8e65a"
+                                    "relay_checksum": "6ea506fcfd829409d04da048ba8599f4"
                                 }, 
                                 "runner": "linux-amd64.supervisor.runner01"
                             }
