@@ -41,9 +41,9 @@
                         "bundles": {
                             "linux-amd64.supervisor": {
                                 "data": {
-                                    "geth": "https://public.artifacts.marlin.pro/projects/relay_eth/1.0.3/geth-linux_amd64", 
+                                    "geth": "http://public.artifacts.marlin.pro/projects/relay_eth/1.0.3/geth-linux_amd64", 
                                     "geth_checksum": "89f062311ad82f8e74dee1aebfb77caa", 
-                                    "relay": "https://public.artifacts.marlin.pro/projects/relay_eth/1.0.3/relay_eth-linux_amd64", 
+                                    "relay": "http://public.artifacts.marlin.pro/projects/relay_eth/1.0.3/relay_eth-linux_amd64", 
                                     "relay_checksum": "6ea506fcfd829409d04da048ba8599f4"
                                 }, 
                                 "runner": "linux-amd64.supervisor.runner01"
