@@ -48,6 +48,38 @@
                         "description": "witness changes", 
                         "time": "19 Feb 21 12:26 +0530"
                     }
+                }, 
+                "1": {
+                    "1": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "bridge": "https://beta.artifacts.marlin.pro/projects/gateway_dot/1.0.1-beta.1/bridge_dot-linux_amd64", 
+                                    "bridge_checksum": "e65383dbcdb6a587004bdcc5eff268b6", 
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_dot/1.0.1-beta.1/gateway_dot-linux_amd64", 
+                                    "gateway_checksum": "1df193c90b535f62bf11753d0646d80e"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "compiled on ubuntu 18.04", 
+                        "time": "24 Mar 21 18:22 +0530"
+                    }, 
+                    "2": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "bridge": "https://beta.artifacts.marlin.pro/projects/gateway_dot/1.0.1-beta.2/bridge_dot-linux_amd64", 
+                                    "bridge_checksum": "3d941665f04372fefb57f857d41ac6a0", 
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_dot/1.0.1-beta.2/gateway_dot-linux_amd64", 
+                                    "gateway_checksum": "1df193c90b535f62bf11753d0646d80e"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "fixed priv keys in logs", 
+                        "time": "24 Mar 21 20:13 +0530"
+                    }
                 }
             }
         }
