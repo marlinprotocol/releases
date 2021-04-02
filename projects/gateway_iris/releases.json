@@ -35,6 +35,27 @@
                     }
                 }
             }
+        },
+        "2": {
+            "0": {
+                "0": {
+                    "1": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "bridge": "https://beta.artifacts.marlin.pro/projects/gateway_iris/2.0.0-beta.1/iris_bridge-linux_amd64", 
+                                    "bridge_checksum": "f6668fdd3e48b5db4998e82aeca19a23", 
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_iris/2.0.0-beta.1/iris_gateway-linux_amd64", 
+                                    "gateway_checksum": "618082435b86946a5217a4f630923d4f"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "irishub-1 mainnet support", 
+                        "time": "02 Apr 21 17:36 +0530"
+                    }
+                }
+            }
         }
     }, 
     "json_version": 1
