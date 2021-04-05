@@ -9,7 +9,7 @@
                         "description": "cosmoshub-4 support",
                         "bundles": {
                             "linux-amd64.supervisor": {
-                                "runner": "linux-amd64.supervisor.runner01",
+                                "runner": "linux-amd64.supervisor.runner02",
                                 "data": {
                                     "gateway": "http://public.artifacts.marlin.pro/projects/gateway_cosmos/2.0.0/cosmos_gateway-linux_amd64",
                                     "gateway_checksum": "66ed97039a8875919fc80c0c69c0f8b8",

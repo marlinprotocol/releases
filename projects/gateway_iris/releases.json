@@ -9,7 +9,7 @@
                         "description": "Iris mainnet 1.0 support",
                         "bundles": {
                             "linux-amd64.supervisor": {
-                                "runner": "linux-amd64.supervisor.runner01",
+                                "runner": "linux-amd64.supervisor.runner02",
                                 "data": {
                                     "gateway": "http://public.artifacts.marlin.pro/projects/gateway_iris/2.0.0/iris_gateway-linux_amd64",
                                     "gateway_checksum": "618082435b86946a5217a4f630923d4f",
