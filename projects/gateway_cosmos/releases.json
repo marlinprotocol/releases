@@ -6,15 +6,15 @@
                 "0": {
                     "0": {
                         "time": "05 Apr 21 15:06 +0530",
-                        "description": "Iris mainnet 1.0 support",
+                        "description": "cosmoshub-4 support",
                         "bundles": {
                             "linux-amd64.supervisor": {
                                 "runner": "linux-amd64.supervisor.runner01",
                                 "data": {
-                                    "gateway": "http://public.artifacts.marlin.pro/projects/gateway_iris/2.0.0/iris_gateway-linux_amd64",
-                                    "gateway_checksum": "618082435b86946a5217a4f630923d4f",
-                                    "bridge": "http://public.artifacts.marlin.pro/projects/gateway_iris/2.0.0/iris_bridge-linux_amd64",
-                                    "bridge_checksum": "f6668fdd3e48b5db4998e82aeca19a23"
+                                    "gateway": "http://public.artifacts.marlin.pro/projects/gateway_cosmos/2.0.0/cosmos_gateway-linux_amd64",
+                                    "gateway_checksum": "66ed97039a8875919fc80c0c69c0f8b8",
+                                    "bridge": "http://public.artifacts.marlin.pro/projects/gateway_cosmos/2.0.0/cosmos_bridge-linux_amd64",
+                                    "bridge_checksum": "34e9f55fca0d226b3c6b11c7dc49dafb"
                                 }
                             }
                         }
