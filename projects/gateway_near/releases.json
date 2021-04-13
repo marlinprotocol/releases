@@ -43,6 +43,23 @@
                         "time": "20 Feb 21 13:10 +0530"
                     }
                 }
+            }, 
+            "2": {
+                "0": {
+                    "1": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_near/1.2.0-beta.1/gateway_near-linux_amd64", 
+                                    "gateway_checksum": "053c2df80f42891f540282057a9eccdb"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "automated", 
+                        "time": "13 Apr 21 18:42 +0530"
+                    }
+                }
             }
         }
     }, 
