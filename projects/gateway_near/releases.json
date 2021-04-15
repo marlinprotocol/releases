@@ -1,0 +1,24 @@
+{
+    "data": {
+        "1": {
+            "2": {
+                "0": {
+                    "0": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "gateway": "http://public.artifacts.marlin.pro/projects/gateway_near/1.2.0/gateway_near-linux_amd64", 
+                                    "gateway_checksum": "053c2df80f42891f540282057a9eccdb"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "near gateway initial release", 
+                        "time": "15 Apr 21 13:07 +0530"
+                    }
+                }
+            }
+        }
+    }, 
+    "json_version": 1
+}
