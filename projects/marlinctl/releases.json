@@ -82,6 +82,23 @@
                         }
                     }
                 }
+            },
+            "3": {
+                "0": {
+                    "0": {
+                        "time": "15 Apr 21 15:50 +0530",
+                        "description": "Near support extended",
+                        "bundles": {
+                            "linux-amd64": {
+                                "runner": "",
+                                "data": {
+                                    "executable": "http://public.artifacts.marlin.pro/projects/marlinctl/2.3.0/marlinctl-2.3.0-linux-amd64",
+                                    "checksum": "e2ab5fbe438975e1f0338d6f53ba741a"
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
