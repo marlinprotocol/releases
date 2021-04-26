@@ -1,0 +1,24 @@
+{
+    "data": {
+        "1": {
+            "0": {
+                "0": {
+                    "1": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "relay": "http://beta.artifacts.marlin.pro/projects/relay_cosmos/1.0.0-beta.1/relay_cosmos-linux_amd64", 
+                                    "relay_checksum": "c1a8f76f10b7848d67acb58109c4555b"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "1.0.0 initial release", 
+                        "time": "26 Apr 21 13:00 +0530"
+                    }
+                }
+            }
+        }
+    }, 
+    "json_version": 1
+}
