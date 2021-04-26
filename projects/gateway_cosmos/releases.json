@@ -42,6 +42,27 @@
                     }
                 }
             }
+        },
+        "3": {
+            "0": {
+                "0": {
+                    "1": {
+                        "time": "26 Apr 21 07:46 +0530",
+                        "description": "larvanet release",
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "runner": "linux-amd64.supervisor.runner02",
+                                "data": {
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_cosmos/3.0.0-beta.1/cosmos_gateway-linux_amd64",
+                                    "gateway_checksum": "60c4e4107978248fa002a889ada31e9b",
+                                    "bridge": "https://beta.artifacts.marlin.pro/projects/gateway_cosmos/3.0.0-beta.1/cosmos_bridge-linux_amd64",
+                                    "bridge_checksum": "5741a27f8960b7cf33b52dbeb450f842"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
