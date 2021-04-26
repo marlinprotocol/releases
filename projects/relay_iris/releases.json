@@ -1,0 +1,24 @@
+{
+    "data": {
+        "1": {
+            "0": {
+                "0": {
+                    "1": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "relay": "http://beta.artifacts.marlin.pro/projects/relay_iris/1.0.0-beta.1/relay_iris-linux_amd64", 
+                                    "relay_checksum": "c2e95651fe6e394dcd1f9f11a4b7b258"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "1.0.0 initial release", 
+                        "time": "26 Apr 21 13:00 +0530"
+                    }
+                }
+            }
+        }
+    }, 
+    "json_version": 1
+}
