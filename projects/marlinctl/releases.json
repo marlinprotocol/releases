@@ -99,6 +99,23 @@
                         }
                     }
                 }
+            },
+            "4": {
+                "0": {
+                    "0": {
+                        "time": "27 Apr 21 15:50 +0530",
+                        "description": "Cosmos and Iris support extended",
+                        "bundles": {
+                            "linux-amd64": {
+                                "runner": "",
+                                "data": {
+                                    "executable": "http://public.artifacts.marlin.pro/projects/marlinctl/2.4.0/marlinctl-2.4.0-linux-amd64",
+                                    "checksum": "7cf8feeb1fa3172c89eaeb9c45d6f509"
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

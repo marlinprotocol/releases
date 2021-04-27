@@ -21,6 +21,27 @@
                     }
                 }
             }
+        },
+        "3": {
+            "0": {
+                "0": {
+                    "0": {
+                        "time": "27 Apr 21 15:06 +0530",
+                        "description": "larvanet support",
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "runner": "linux-amd64.supervisor.runner02",
+                                "data": {
+                                    "gateway": "http://public.artifacts.marlin.pro/projects/gateway_iris/3.0.0/iris_gateway-linux_amd64",
+                                    "gateway_checksum": "e7a8173fb3c096d040c411157c75a4eb",
+                                    "bridge": "http://public.artifacts.marlin.pro/projects/gateway_iris/3.0.0/iris_bridge-linux_amd64",
+                                    "bridge_checksum": "0dd951ae6013d23d54ded6d7ac691a79"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
