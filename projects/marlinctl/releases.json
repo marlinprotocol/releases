@@ -115,6 +115,21 @@
                             }
                         }
                     }
+                },
+                "1": {
+                    "0": {
+                        "time": "27 Apr 21 16:10 +0530",
+                        "description": "TM fixes",
+                        "bundles": {
+                            "linux-amd64": {
+                                "runner": "",
+                                "data": {
+                                    "executable": "http://public.artifacts.marlin.pro/projects/marlinctl/2.4.1/marlinctl-2.4.1-linux_amd64",
+                                    "checksum": "d7e46ba404bbf224171f19f3b5758137"
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
