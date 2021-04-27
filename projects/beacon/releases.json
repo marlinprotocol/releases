@@ -18,6 +18,23 @@
                         }
                     }
                 }
+            },
+            "1": {
+                "0": {
+                    "0": {
+                        "time": "27 Apr 21 15:00 +0530",
+                        "description": "tendermint support",
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "runner": "linux-amd64.supervisor.runner01",
+                                "data": {
+                                    "beacon": "http://public.artifacts.marlin.pro/projects/beacon/1.1.0/beacon-linux_amd64",
+                                    "beacon_checksum": "04e1a8e72dba9cdd918cd7d322c44e06"
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
