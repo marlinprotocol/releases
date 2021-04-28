@@ -22,7 +22,7 @@
                         "bundles": {
                             "linux-amd64.supervisor": {
                                 "data": {
-                                    "relay": "https://public.artifacts.marlin.pro/projects/relay_cosmos/1.0.1/relay_cosmos-linux_amd64", 
+                                    "relay": "http://public.artifacts.marlin.pro/projects/relay_cosmos/1.0.1/relay_cosmos-linux_amd64", 
                                     "relay_checksum": "16177eb3bca7d60700bd24e3c6182d71"
                                 }, 
                                 "runner": "linux-amd64.supervisor.runner02"
