@@ -1,24 +1,39 @@
 {
-    "json_version": 1,
-    "data" : {
+    "data": {
         "1": {
             "0": {
                 "0": {
                     "0": {
-                        "time": "05 Apr 21 15:06 +0530",
-                        "description": "cosmos relay init",
                         "bundles": {
                             "linux-amd64.supervisor": {
-                                "runner": "linux-amd64.supervisor.runner02",
                                 "data": {
-                                    "relay": "http://public.artifacts.marlin.pro/projects/relay_cosmos/1.0.0/relay_cosmos-linux_amd64",
+                                    "relay": "http://public.artifacts.marlin.pro/projects/relay_cosmos/1.0.0/relay_cosmos-linux_amd64", 
                                     "relay_checksum": "c1a8f76f10b7848d67acb58109c4555b"
-                                }
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
                             }
-                        }
+                        }, 
+                        "description": "cosmos relay init", 
+                        "time": "05 Apr 21 15:06 +0530"
+                    }
+                }, 
+                "1": {
+                    "0": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "relay": "https://public.artifacts.marlin.pro/projects/relay_cosmos/1.0.1/relay_cosmos-linux_amd64", 
+                                    "relay_checksum": "16177eb3bca7d60700bd24e3c6182d71"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "Passthrough message fixes", 
+                        "time": "28 Apr 21 11:19 +0530"
                     }
                 }
             }
         }
-    }
+    }, 
+    "json_version": 1
 }
