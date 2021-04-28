@@ -22,7 +22,7 @@
                         "bundles": {
                             "linux-amd64.supervisor": {
                                 "data": {
-                                    "relay": "https://public.artifacts.marlin.pro/projects/relay_iris/1.0.1/relay_iris-linux_amd64", 
+                                    "relay": "http://public.artifacts.marlin.pro/projects/relay_iris/1.0.1/relay_iris-linux_amd64", 
                                     "relay_checksum": "25a2272f4df99edda6398e1412349f03"
                                 }, 
                                 "runner": "linux-amd64.supervisor.runner02"
