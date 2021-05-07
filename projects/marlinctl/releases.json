@@ -130,6 +130,21 @@
                             }
                         }
                     }
+                },
+                "2": {
+                    "0": {
+                        "time": "07 May 21 10:10 +0530",
+                        "description": "Log Offset fixes",
+                        "bundles": {
+                            "linux-amd64": {
+                                "runner": "",
+                                "data": {
+                                    "executable": "http://public.artifacts.marlin.pro/projects/marlinctl/2.4.2/marlinctl-2.4.2-linux_amd64",
+                                    "checksum": "ad3f7a2e2f1a770c965bfcec20e9fe7a"
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
