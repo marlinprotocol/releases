@@ -146,6 +146,23 @@
                         }
                     }
                 }
+            },
+            "5": {
+                "0": {
+                    "0": {
+                        "time": "20 May 21 15:50 +0530",
+                        "description": "Polkadot relay support extended",
+                        "bundles": {
+                            "linux-amd64": {
+                                "runner": "",
+                                "data": {
+                                    "executable": "http://public.artifacts.marlin.pro/projects/marlinctl/2.5.0/marlinctl-2.5.0-linux-amd64",
+                                    "checksum": "16eafab949d6d875c3cdf64a19b8ee50"
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
