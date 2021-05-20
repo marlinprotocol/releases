@@ -90,8 +90,8 @@
                                 "data": {
                                     "bridge": "https://beta.artifacts.marlin.pro/projects/gateway_dot/1.1.0-beta.1/bridge_dot-linux_amd64", 
                                     "bridge_checksum": "8f1846167a19ecc1ca4ed79c11ca55fe", 
-                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_dot/1.1.0-beta.1/gateway_dot-linux_amd64", 
-                                    "gateway_checksum": "1df193c90b535f62bf11753d0646d80e"
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_dot/1.1.0-beta.1/dot_bridge", 
+                                    "gateway_checksum": "cf18973c57ee32878b73af1196950340"
                                 }, 
                                 "runner": "linux-amd64.supervisor.runner02"
                             }
