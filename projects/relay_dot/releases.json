@@ -1,0 +1,24 @@
+{
+    "data": {
+        "1": {
+            "0": {
+                "0": {
+                    "1": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "relay": "unknown", 
+                                    "relay_checksum": "unknown"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "1.0.0 beta unknown release", 
+                        "time": "26 Apr 21 13:00 +0530"
+                    }
+                }
+            }
+        }
+    }, 
+    "json_version": 1
+}
