@@ -15,6 +15,19 @@
                         }, 
                         "description": "1.0.0 beta unknown release", 
                         "time": "26 Apr 21 13:00 +0530"
+                    }, 
+                    "3": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "relay": "https://beta.artifacts.marlin.pro/projects/relay_dot/1.0.0-beta.3/relay_dot-linux_amd64", 
+                                    "relay_checksum": "1564d174e6dd9eec003411c4f6f9b06e"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "automated", 
+                        "time": "20 May 21 15:12 +0530"
                     }
                 }
             }
