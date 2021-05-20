@@ -1,25 +1,41 @@
-
 {
-    "json_version": 1,
-    "data" : {
+    "data": {
         "1": {
             "0": {
                 "0": {
                     "1": {
-                        "time": "02 Feb 21 18:00 +0530",
-                        "description": "test beta release",
                         "bundles": {
                             "linux-amd64.supervisor": {
-                                "runner": "linux-amd64.supervisor.runner02",
                                 "data": {
-                                    "beacon": "http://public.artifacts.marlin.pro/projects/beacon/1.0.0/beacon-1.0.0-linux-amd64",
+                                    "beacon": "http://public.artifacts.marlin.pro/projects/beacon/1.0.0/beacon-1.0.0-linux-amd64", 
                                     "beacon_checksum": "601563fd36a145caaaf03c87e8ac482a"
-                                }
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
                             }
-                        }
+                        }, 
+                        "description": "test beta release", 
+                        "time": "02 Feb 21 18:00 +0530"
+                    }
+                }
+            }, 
+            "1": {
+                "0": {
+                    "0": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "beacon": "https://beta.artifacts.marlin.pro/projects/beacon/1.1.0-beta.0/beacon-linux_amd64", 
+                                    "beacon_checksum": "04e1a8e72dba9cdd918cd7d322c44e06"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner01"
+                            }
+                        }, 
+                        "description": "cosmos support", 
+                        "time": "27 Apr 21 14:51 +0530"
                     }
                 }
             }
         }
-    }
+    }, 
+    "json_version": 1
 }

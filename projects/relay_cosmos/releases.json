@@ -16,6 +16,21 @@
                         "description": "1.0.0 initial release", 
                         "time": "26 Apr 21 13:00 +0530"
                     }
+                }, 
+                "1": {
+                    "1": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "relay": "https://beta.artifacts.marlin.pro/projects/relay_cosmos/1.0.1-beta.1/relay_cosmos-linux_amd64", 
+                                    "relay_checksum": "16177eb3bca7d60700bd24e3c6182d71"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "passthrough fixes", 
+                        "time": "28 Apr 21 11:09 +0530"
+                    }
                 }
             }
         }
