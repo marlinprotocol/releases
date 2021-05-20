@@ -1,0 +1,24 @@
+{
+    "data": {
+        "1": {
+            "0": {
+                "0": {
+                    "0": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "relay": "http://public.artifacts.marlin.pro/projects/relay_dot/1.0.0/dot_relay", 
+                                    "relay_checksum": "eeef73098a89bb6e1dc7be00d5fdacfa"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "1.0.0 initial release", 
+                        "time": "20 May 21 15:12 +0530"
+                    }
+                }
+            }
+        }
+    }, 
+    "json_version": 1
+}

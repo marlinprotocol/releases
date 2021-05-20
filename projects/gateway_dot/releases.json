@@ -36,6 +36,25 @@
                         "time": "24 Mar 21 21:09 +0530"
                     }
                 }
+            },
+            "1": {
+                "0": {
+                    "0": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "bridge": "http://public.artifacts.marlin.pro/projects/gateway_dot/1.1.0/dot_bridge", 
+                                    "bridge_checksum": "cf18973c57ee32878b73af1196950340", 
+                                    "gateway": "http://public.artifacts.marlin.pro/projects/gateway_dot/1.1.0/gateway_dot-linux_amd64", 
+                                    "gateway_checksum": "1df193c90b535f62bf11753d0646d80e"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "1.1.0 polkadot release", 
+                        "time": "18 Mar 21 14:00 +0530"
+                    }
+                }
             }
         }
     }, 
