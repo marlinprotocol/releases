@@ -162,6 +162,21 @@
                             }
                         }
                     }
+                },
+                "1": {
+                    "0": {
+                        "time": "08 Jun 21 10:50 +0530",
+                        "description": "TM gateway direction switches",
+                        "bundles": {
+                            "linux-amd64": {
+                                "runner": "",
+                                "data": {
+                                    "executable": "http://public.artifacts.marlin.pro/projects/marlinctl/2.5.1/marlinctl-2.5.1-linux-amd64",
+                                    "checksum": "2acbdb08c09ffadf2ce4fe57bbbd9f96"
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
