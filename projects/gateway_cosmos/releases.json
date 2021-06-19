@@ -41,6 +41,25 @@
                         }
                     }
                 }
+            },
+            "1": {
+                "0": {
+                    "0": {
+                        "time": "19 Jun 21 10:06 +0530",
+                        "description": "Wire proto v2, CsDcBPM support",
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "runner": "linux-amd64.supervisor.runner02",
+                                "data": {
+                                    "gateway": "http://public.artifacts.marlin.pro/projects/gateway_cosmos/3.1.0/cosmos_gateway-linux_amd64",
+                                    "gateway_checksum": "e63ab30bcea687c69135a7730b3281a8",
+                                    "bridge": "http://public.artifacts.marlin.pro/projects/gateway_cosmos/3.1.0/cosmos_bridge-linux_amd64",
+                                    "bridge_checksum": "5741a27f8960b7cf33b52dbeb450f842"
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
