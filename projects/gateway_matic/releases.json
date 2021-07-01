@@ -1,4 +1,24 @@
 {
-	"data": {},
-	"json_version": 1
+    "data": {
+        "1": {
+            "0": {
+                "0": {
+                    "0": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_matic/1.0.0-beta.0/gateway_matic-linux_amd64", 
+                                    "gateway_checksum": "3759a3377068571105f8a825ad1e7bfd"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "initial release", 
+                        "time": "01 Jul 21 10:26 +0530"
+                    }
+                }
+            }
+        }
+    }, 
+    "json_version": 1
 }
