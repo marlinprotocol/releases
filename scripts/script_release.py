@@ -52,7 +52,11 @@ with open(beta_file_path, "r") as beta_file:
         elif project_name == "gateway_eth":
             d["bundles"]["linux-amd64.supervisor"]["data"]["gateway"] = "http://public.artifacts.marlin.pro/projects/gateway_eth/" + public_version \
                 + "/gateway_eth-linux_amd64"
-        
+            
+        elif project_name == "gateway_matic":
+            d["bundles"]["linux-amd64.supervisor"]["data"]["gateway"] = "http://public.artifacts.marlin.pro/projects/gateway_matic/" + public_version \
+                + "/gateway_matic-linux_amd64"
+            
         elif project_name == "gateway_near":
             d["bundles"]["linux-amd64.supervisor"]["data"]["gateway"] = "http://public.artifacts.marlin.pro/projects/gateway_near/" + public_version \
                 + "/gateway_near-linux_amd64"
