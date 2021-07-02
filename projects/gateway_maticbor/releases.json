@@ -10,7 +10,7 @@
                                     "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_maticbor/1.0.0-beta.1/gateway_maticbor-linux_amd64", 
                                     "gateway_checksum": "3759a3377068571105f8a825ad1e7bfd"
                                 }, 
-                                "runner": "linux-amd64.supervisor.runner02"
+                                "runner": "linux-amd64.supervisor.runner01"
                             }
                         }, 
                         "description": "initial release", 
