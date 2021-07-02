@@ -1,5 +1,24 @@
 {
     "data": {
+        "1": {
+            "0": {
+                "0": {
+                    "1": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_maticbor/1.0.0-beta.1/gateway_maticbor-linux_amd64", 
+                                    "gateway_checksum": "3759a3377068571105f8a825ad1e7bfd"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "initial release", 
+                        "time": "02 Jul 21 13:45 +0530"
+                    }
+                }
+            }
+        }
     }, 
     "json_version": 1
 }
