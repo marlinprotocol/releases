@@ -41,7 +41,17 @@ with open(file_path, "r") as json_file:
     ts = time.gmtime(int(time.time()) + 19800) #in +5:30 
     data['data'][str(v.major)][str(v.minor)][str(v.patch)][str(v.prerelease[1])]["time"] = time.strftime("%d %b %y %H:%M +0530", ts)
     data['data'][str(v.major)][str(v.minor)][str(v.patch)][str(v.prerelease[1])]["description"] = description
-    if pg_name[1] == "":
+    if pg_name[0] == "marlinctl":
+        data['data'][str(v.major)][str(v.minor)][str(v.patch)][str(v.prerelease[1])]["bundles"] = {
+            "linux-amd64": {
+                "runner": "",
+                "data": {
+                    "executable": pg_path[0],
+                    "checksum": str(pg_checksum[0])
+                }
+            }
+        }
+    elif pg_name[1] == "":
         data['data'][str(v.major)][str(v.minor)][str(v.patch)][str(v.prerelease[1])]["bundles"] = {
             "linux-amd64.supervisor": {
                 "runner": "linux-amd64.supervisor." + runner_version,
