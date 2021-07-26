@@ -78,7 +78,7 @@ with open(beta_file_path, "r") as beta_file:
                 + "/bridge_dot-linux_amd64"
 
         elif project_name == "marlinctl":
-            d["bundles"]["linux-amd64.supervisor"]["data"]["executable"] = "https://public.artifacts.marlin.pro/projects/marlinctl/" + public_version \
+            d["bundles"]["linux-amd64"]["data"]["executable"] = "https://public.artifacts.marlin.pro/projects/marlinctl/" + public_version \
                 + "/marlinctl-linux_amd64"
 
         data_release['data'][str(v.major)][str(v.minor)][str(v.patch)] = {
