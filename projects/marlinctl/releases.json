@@ -1,24 +1,37 @@
 {
-    "json_version": 1,
-    "data" : {
+    "data": {
         "2": {
             "0": {
                 "0": {
                     "1": {
-                        "time": "12 Dec 20 15:06 +0530",
-                        "description": "Test beta release",
                         "bundles": {
                             "linux-amd64": {
-                                "runner": "",
                                 "data": {
-                                    "executable": "http://beta.artifacts.marlin.pro/projects/marlinctl/2.0.0-beta.1/marlinctl-linux-amd64",
-                                    "checksum": "e13afa15980b2de562f13dacb8837938"
-                                }
+                                    "checksum": "e13afa15980b2de562f13dacb8837938", 
+                                    "executable": "http://beta.artifacts.marlin.pro/projects/marlinctl/2.0.0-beta.1/marlinctl-linux-amd64"
+                                }, 
+                                "runner": ""
                             }
-                        }
+                        }, 
+                        "description": "Test beta release", 
+                        "time": "12 Dec 20 15:06 +0530"
+                    }, 
+                    "2": {
+                        "bundles": {
+                            "linux-amd64": {
+                                "data": {
+                                    "checksum": "9bc8f17a68b42368065f1d999747667c", 
+                                    "executable": "https://beta.artifacts.marlin.pro/projects/marlinctl/2.0.0-beta.2/marlinctl-linux-amd64"
+                                }, 
+                                "runner": ""
+                            }
+                        }, 
+                        "description": "testing", 
+                        "time": "26 Jul 21 11:50 +0530"
                     }
                 }
             }
         }
-    }
+    }, 
+    "json_version": 1
 }
