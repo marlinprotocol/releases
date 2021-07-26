@@ -179,13 +179,13 @@
                 }
             }, 
             "6": {
-                "0": {
+                "1": {
                     "0": {
                         "bundles": {
                             "linux-amd64": {
                                 "data": {
-                                    "checksum": "01e83b5b1dc077d6987ad05eae99e190", 
-                                    "executable": "http://public.artifacts.marlin.pro/projects/marlinctl/2.6.0/marlinctl-linux_amd64"
+                                    "checksum": "91ca975032ab576b912c034b61d90bcc", 
+                                    "executable": "http://public.artifacts.marlin.pro/projects/marlinctl/2.6.1/marlinctl-linux_amd64"
                                 }, 
                                 "runner": ""
                             }
