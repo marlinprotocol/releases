@@ -185,7 +185,7 @@
                             "linux-amd64": {
                                 "data": {
                                     "checksum": "01e83b5b1dc077d6987ad05eae99e190", 
-                                    "executable": "https://public.artifacts.marlin.pro/projects/marlinctl/2.6.0/marlinctl-linux_amd64"
+                                    "executable": "http://public.artifacts.marlin.pro/projects/marlinctl/2.6.0/marlinctl-linux_amd64"
                                 }, 
                                 "runner": ""
                             }
