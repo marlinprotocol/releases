@@ -50,7 +50,7 @@
                     }
                 }
             }
-        },
+        }, 
         "2": {
             "0": {
                 "0": {
@@ -66,6 +66,19 @@
                         }, 
                         "description": "103 upgrade to major - testing only", 
                         "time": "26 Jul 21 11:49 +0530"
+                    }, 
+                    "2": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "relay": "https://beta.artifacts.marlin.pro/projects/relay_eth/2.0.0-beta.2/relay_eth-linux_amd64", 
+                                    "relay_checksum": "1cf79ee87acfeb03c17e6b26b316eb54"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner03"
+                            }
+                        }, 
+                        "description": "single exec ethereum relay", 
+                        "time": "26 Jul 21 16:45 +0530"
                     }
                 }
             }
