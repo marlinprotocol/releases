@@ -50,6 +50,25 @@
                     }
                 }
             }
+        },
+        "2": {
+            "0": {
+                "0": {
+                    "1": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "relay": "https://beta.artifacts.marlin.pro/projects/relay_eth/1.0.3-beta.2/relay_eth-linux_amd64", 
+                                    "relay_checksum": "b438b655d9816dc746922baf43f648f0"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner03"
+                            }
+                        }, 
+                        "description": "103 upgrade to major - testing only", 
+                        "time": "26 Jul 21 11:49 +0530"
+                    }
+                }
+            }
         }
     }, 
     "json_version": 1
