@@ -32,6 +32,19 @@
                         }, 
                         "description": "testing", 
                         "time": "26 Jul 21 12:36 +0530"
+                    }, 
+                    "2": {
+                        "bundles": {
+                            "linux-amd64": {
+                                "data": {
+                                    "checksum": "01e83b5b1dc077d6987ad05eae99e190", 
+                                    "executable": "https://beta.artifacts.marlin.pro/projects/marlinctl/2.6.0-beta.2/marlinctl-linux_amd64"
+                                }, 
+                                "runner": ""
+                            }
+                        }, 
+                        "description": "single exec eth relay", 
+                        "time": "26 Jul 21 14:05 +0530"
                     }
                 }
             }
