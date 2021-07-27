@@ -15,6 +15,21 @@
                         }, 
                         "description": "initial release", 
                         "time": "02 Jul 21 13:45 +0530"
+                    }, 
+                    "2": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "bor": "https://beta.artifacts.marlin.pro/projects/gateway_maticbor/1.0.0-beta.2/bor-linux_amd64", 
+                                    "bor_checksum": "99a29b1a3fe608b623cc494040262e5f", 
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_maticbor/1.0.0-beta.2/gateway_maticbor-linux_amd64", 
+                                    "gateway_checksum": "3759a3377068571105f8a825ad1e7bfd"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner01"
+                            }
+                        }, 
+                        "description": "testing", 
+                        "time": "27 Jul 21 12:19 +0530"
                     }
                 }
             }
