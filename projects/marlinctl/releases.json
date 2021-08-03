@@ -45,6 +45,19 @@
                         }, 
                         "description": "single exec eth relay", 
                         "time": "26 Jul 21 14:05 +0530"
+                    }, 
+                    "3": {
+                        "bundles": {
+                            "linux-amd64": {
+                                "data": {
+                                    "checksum": "a33cdf4942211b3d3a60a444d8a6ef49", 
+                                    "executable": "https://beta.artifacts.marlin.pro/projects/marlinctl/2.6.0-beta.3/marlinctl-linux_amd64"
+                                }, 
+                                "runner": ""
+                            }
+                        }, 
+                        "description": "polygon bor gateway release", 
+                        "time": "03 Aug 21 17:00 +0530"
                     }
                 }
             }
