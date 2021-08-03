@@ -58,6 +58,19 @@
                         }, 
                         "description": "polygon bor gateway release", 
                         "time": "03 Aug 21 17:35 +0530"
+                    }, 
+                    "4": {
+                        "bundles": {
+                            "linux-amd64": {
+                                "data": {
+                                    "checksum": "b1594a573c368a9eb1e1b4232edb1567", 
+                                    "executable": "https://beta.artifacts.marlin.pro/projects/marlinctl/2.6.0-beta.4/marlinctl-linux_amd64"
+                                }, 
+                                "runner": ""
+                            }
+                        }, 
+                        "description": "adding polygon gateway and relay", 
+                        "time": "03 Aug 21 20:55 +0530"
                     }
                 }
             }
