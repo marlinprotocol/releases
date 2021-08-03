@@ -28,6 +28,19 @@
                         }, 
                         "description": "testing", 
                         "time": "03 Aug 21 17:04 +0530"
+                    }, 
+                    "3": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_polygonbor/1.0.0-beta.3/gateway_polygonbor-linux_amd64", 
+                                    "gateway_checksum": "1ecaf77ff4b6c1bcdfc1836160716985"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner01"
+                            }
+                        }, 
+                        "description": "testing", 
+                        "time": "03 Aug 21 19:57 +0530"
                     }
                 }
             }
