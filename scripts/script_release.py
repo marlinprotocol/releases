@@ -43,7 +43,7 @@ with open(beta_file_path, "r") as beta_file:
             d["bundles"]["linux-amd64.supervisor"]["data"]["relay"] = "http://public.artifacts.marlin.pro/projects/relay_eth/" + public_version \
                 + "/relay_eth-linux_amd64"
             
-        elif project_name == "relay_iris" or project_name == "relay_cosmos" or project_name == "relay_dot":
+        elif project_name == "relay_iris" or project_name == "relay_cosmos" or project_name == "relay_dot" or project_name == "relay_polygon":
             d["bundles"]["linux-amd64.supervisor"]["data"]["relay"] = "http://public.artifacts.marlin.pro/projects/" + project_name + "/" + public_version \
                 + "/" + project_name + "-linux_amd64"
             
