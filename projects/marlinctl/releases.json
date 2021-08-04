@@ -84,6 +84,20 @@
                         }, 
                         "description": "polygon bor gateway and relay release", 
                         "time": "03 Aug 21 21:23 +0530"
+                    }, 
+                    "6": {
+                        "bundles": {
+                            "linux-amd64": {
+                                "data": {
+                                    "checksum": "d430584f57bb3d6838a288c0d2903eb6", 
+                                    "checksum_release": "be8e6c04c24785c885ea91afde4e1c7d", 
+                                    "executable": "https://beta.artifacts.marlin.pro/projects/marlinctl_beta/2.6.0-beta.6/marlinctl-linux_amd64"
+                                }, 
+                                "runner": ""
+                            }
+                        }, 
+                        "description": "polygon bor gateway and relay release", 
+                        "time": "04 Aug 21 15:35 +0530"
                     }
                 }
             }
