@@ -194,6 +194,23 @@
                         "time": "26 Jul 21 14:11 +0530"
                     }
                 }
+            }, 
+            "7": {
+                "0": {
+                    "0": {
+                        "bundles": {
+                            "linux-amd64": {
+                                "data": {
+                                    "checksum": "ec2a5907822c75615c4dd8fd088636bd", 
+                                    "executable": "http://public.artifacts.marlin.pro/projects/marlinctl/2.7.0/marlinctl-linux_amd64"
+                                }, 
+                                "runner": ""
+                            }
+                        }, 
+                        "description": "polygon release", 
+                        "time": "04 Aug 21 18:49 +0530"
+                    }
+                }
             }
         }
     }, 
