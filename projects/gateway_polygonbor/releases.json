@@ -1,5 +1,24 @@
 {
     "data": {
+        "1": {
+            "0": {
+                "0": {
+                    "0": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "gateway": "http://public.artifacts.marlin.pro/projects/gateway_polygonbor/1.0.0/gateway_polygonbor-linux_amd64", 
+                                    "gateway_checksum": "daf07f2372fbc5beae5c50224da9e7e5"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner01"
+                            }
+                        }, 
+                        "description": "polygon release", 
+                        "time": "04 Aug 21 18:20 +0530"
+                    }
+                }
+            }
+        }
     }, 
     "json_version": 1
 }
