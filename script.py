@@ -47,7 +47,8 @@ with open(file_path, "r") as json_file:
                 "runner": "",
                 "data": {
                     "executable": pg_path[0],
-                    "checksum": str(pg_checksum[0])
+                    "checksum": str(pg_checksum[0]),
+                    "checksum_release": str(pg_checksum[1])
                 }
             }
         }
