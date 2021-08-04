@@ -80,6 +80,8 @@ with open(beta_file_path, "r") as beta_file:
         elif project_name == "marlinctl":
             d["bundles"]["linux-amd64"]["data"]["executable"] = "http://public.artifacts.marlin.pro/projects/marlinctl/" + public_version \
                 + "/marlinctl-linux_amd64"
+            d["bundles"]["linux-amd64"]["data"]["checksum"] = d["bundles"]["linux-amd64"]["data"]["checksum_release"]
+            del d["bundles"]["linux-amd64"]["data"]["checksum_release"]
 
         data_release['data'][str(v.major)][str(v.minor)][str(v.patch)] = {
             "0": d
