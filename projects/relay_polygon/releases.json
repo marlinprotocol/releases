@@ -16,6 +16,21 @@
                         "description": "polygon release", 
                         "time": "04 Aug 21 18:23 +0530"
                     }
+                }, 
+                "1": {
+                    "0": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "relay": "http://public.artifacts.marlin.pro/projects/relay_polygon/1.0.1/relay_polygon-linux_amd64", 
+                                    "relay_checksum": "51bf02bfac275fbc187e357e545dc2c5"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner01"
+                            }
+                        }, 
+                        "description": "pubsub updates", 
+                        "time": "30 Aug 21 13:59 +0530"
+                    }
                 }
             }
         }
