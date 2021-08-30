@@ -33,6 +33,21 @@
                         "description": "cosmos support", 
                         "time": "27 Apr 21 14:51 +0530"
                     }
+                }, 
+                "1": {
+                    "1": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "beacon": "https://beta.artifacts.marlin.pro/projects/beacon/1.1.1-beta.1/beacon-linux_amd64", 
+                                    "beacon_checksum": "8282880499974807af40de4278aa75a5"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner01"
+                            }
+                        }, 
+                        "description": "pubsub patches", 
+                        "time": "30 Aug 21 13:48 +0530"
+                    }
                 }
             }
         }
