@@ -68,6 +68,21 @@
                         "description": "bor gateway release", 
                         "time": "04 Aug 21 12:34 +0530"
                     }
+                }, 
+                "1": {
+                    "1": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_polygonbor/1.0.1-beta.1/gateway_polygonbor-linux_amd64", 
+                                    "gateway_checksum": "a5963e172d7a8431e97f7149771023ad"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner01"
+                            }
+                        }, 
+                        "description": "automated", 
+                        "time": "30 Aug 21 13:42 +0530"
+                    }
                 }
             }
         }
