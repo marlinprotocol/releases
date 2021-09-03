@@ -83,6 +83,23 @@
                         "description": "automated", 
                         "time": "30 Aug 21 13:42 +0530"
                     }
+                }, 
+                "2": {
+                    "0": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_polygonbor/1.0.2-beta.0/gateway_polygonbor-linux_amd64", 
+                                    "gateway_checksum": "a5963e172d7a8431e97f7149771023ad", 
+                                    "mevproxy": "https://beta.artifacts.marlin.pro/projects/gateway_polygonbor/1.0.2-beta.0/mevproxy-linux_amd64", 
+                                    "mevproxy_checksum": ""
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "testing", 
+                        "time": "03 Sep 21 17:08 +0530"
+                    }
                 }
             }
         }
