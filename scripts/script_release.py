@@ -54,6 +54,8 @@ with open(beta_file_path, "r") as beta_file:
         elif project_name == "gateway_polygonbor":
             d["bundles"]["linux-amd64.supervisor"]["data"]["gateway"] = "http://public.artifacts.marlin.pro/projects/gateway_polygonbor/" + public_version \
                 + "/gateway_polygonbor-linux_amd64"
+            d["bundles"]["linux-amd64.supervisor"]["data"]["mevproxy"] = "http://public.artifacts.marlin.pro/projects/gateway_polygonbor/" + public_version \
+                + "/mevproxy-linux_amd64"
             
         elif project_name == "gateway_near":
             d["bundles"]["linux-amd64.supervisor"]["data"]["gateway"] = "http://public.artifacts.marlin.pro/projects/gateway_near/" + public_version \
