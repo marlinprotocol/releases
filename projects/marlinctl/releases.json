@@ -134,6 +134,20 @@
                         }, 
                         "description": "gateway update and mevproxy release", 
                         "time": "03 Sep 21 19:24 +0530"
+                    }, 
+                    "2": {
+                        "bundles": {
+                            "linux-amd64": {
+                                "data": {
+                                    "checksum": "51de37297e7d1e300ef8691b772e1a9b", 
+                                    "checksum_release": "887a15ce1460fa5df7470bc8c7610bd1", 
+                                    "executable": "https://beta.artifacts.marlin.pro/projects/marlinctl_beta/2.8.0-beta.2/marlinctl-linux_amd64"
+                                }, 
+                                "runner": ""
+                            }
+                        }, 
+                        "description": "project name changes, CLI changes", 
+                        "time": "04 Sep 21 09:46 +0530"
                     }
                 }
             }
