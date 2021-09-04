@@ -162,6 +162,20 @@
                         }, 
                         "description": "updated JSONRPC defaults", 
                         "time": "04 Sep 21 17:40 +0530"
+                    }, 
+                    "4": {
+                        "bundles": {
+                            "linux-amd64": {
+                                "data": {
+                                    "checksum": "8d73472c8c122b510bd1301ffbe54e23", 
+                                    "checksum_release": "355db74338e5101509a03adc1f848116", 
+                                    "executable": "https://beta.artifacts.marlin.pro/projects/marlinctl_beta/2.8.0-beta.4/marlinctl-linux_amd64"
+                                }, 
+                                "runner": ""
+                            }
+                        }, 
+                        "description": "updated naming", 
+                        "time": "04 Sep 21 18:02 +0530"
                     }
                 }
             }
