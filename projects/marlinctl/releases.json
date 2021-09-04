@@ -148,6 +148,20 @@
                         }, 
                         "description": "project name changes, CLI changes", 
                         "time": "04 Sep 21 09:46 +0530"
+                    }, 
+                    "3": {
+                        "bundles": {
+                            "linux-amd64": {
+                                "data": {
+                                    "checksum": "107b3c494f7febec7fa398c076ee7aab", 
+                                    "checksum_release": "b9f1ed7e4855a33267e7ed74bc84d6a2", 
+                                    "executable": "https://beta.artifacts.marlin.pro/projects/marlinctl_beta/2.8.0-beta.3/marlinctl-linux_amd64"
+                                }, 
+                                "runner": ""
+                            }
+                        }, 
+                        "description": "updated JSONRPC defaults", 
+                        "time": "04 Sep 21 17:40 +0530"
                     }
                 }
             }
