@@ -101,6 +101,25 @@
                         "time": "03 Sep 21 19:35 +0530"
                     }
                 }
+            }, 
+            "1": {
+                "0": {
+                    "1": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_polygonbor/1.1.0-beta.1/gateway_polygonbor-linux_amd64", 
+                                    "gateway_checksum": "900d071f9c34aa87ab9b0d72233730e4", 
+                                    "mevproxy": "https://beta.artifacts.marlin.pro/projects/gateway_polygonbor/1.1.0-beta.1/mevproxy-linux_amd64", 
+                                    "mevproxy_checksum": "9a7c664eb0b602c37ca012b97865abf6"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "protocol upgrade", 
+                        "time": "17 Sep 21 15:17 +0530"
+                    }
+                }
             }
         }
     }, 
