@@ -121,6 +121,27 @@
                     }
                 }
             }
+        }, 
+        "2": {
+            "0": {
+                "0": {
+                    "1": {
+                        "bundles": {
+                            "linux-amd64.supervisor": {
+                                "data": {
+                                    "gateway": "https://beta.artifacts.marlin.pro/projects/gateway_polygonbor/2.0.0-beta.1/gateway_polygonbor-linux_amd64", 
+                                    "gateway_checksum": "f9fd5545b14650f6dd99a589a45f8dff", 
+                                    "mevproxy": "https://beta.artifacts.marlin.pro/projects/gateway_polygonbor/2.0.0-beta.1/mevproxy-linux_amd64", 
+                                    "mevproxy_checksum": "e570b05b166bb38307e9d7c3f3a90625"
+                                }, 
+                                "runner": "linux-amd64.supervisor.runner02"
+                            }
+                        }, 
+                        "description": "mev updates", 
+                        "time": "17 Nov 21 15:57 +0530"
+                    }
+                }
+            }
         }
     }, 
     "json_version": 1
