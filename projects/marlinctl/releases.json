@@ -178,6 +178,24 @@
                         "time": "04 Sep 21 18:02 +0530"
                     }
                 }
+            }, 
+            "9": {
+                "0": {
+                    "1": {
+                        "bundles": {
+                            "linux-amd64": {
+                                "data": {
+                                    "checksum": "5feb195533ca2fb730cc1217c42b53ca", 
+                                    "checksum_release": "9f0b977276215fd92f7b0c300b287731", 
+                                    "executable": "https://beta.artifacts.marlin.pro/projects/marlinctl_beta/2.9.0-beta.1/marlinctl-linux_amd64"
+                                }, 
+                                "runner": ""
+                            }
+                        }, 
+                        "description": "shorthand fix", 
+                        "time": "05 Jan 22 04:52 +0530"
+                    }
+                }
             }
         }
     }, 
